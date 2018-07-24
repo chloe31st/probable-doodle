@@ -185,7 +185,7 @@ function Speech(text) {
 //GASに指定の値をJSONにて送信
 function GasRequest(num) {
   var script = document.createElement('script');  //scriptタグ生成
-  var base = 'https://script.google.com/macros/s/AKfycbw8gy8khaOVo2PBOnR6BasMOC7pquNXj3nOTggRNYLb-psD2xnQ/exec';
+  var base = 'https://script.google.com/macros/s/AKfycbxye7ngc7MqUxYfiyFSXKU_9LhEARXe5VCNP6uqApLph76DZ3KI/exec';
   script.src = base + '?callback=receiveJson&action=' + num;
   document.body.appendChild(script);  //bodyにscript追加
   //console.log(script.src);
