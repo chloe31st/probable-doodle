@@ -200,6 +200,7 @@ function receiveJson(json) {
       spotData.push(json.response[i]);
     }
     inputMarker();
+    window.alert(spotData.length);
     decision();
   }
   //取得情報反映
